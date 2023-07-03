@@ -107,3 +107,4 @@ except subprocess.CalledProcessError as e:
 print("Successfully built Fugu14App")
 
 print("Please open the folder containing your unzipped IPSW now.")
+exit()
