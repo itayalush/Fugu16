@@ -108,24 +108,10 @@ print("Successfully built Fugu16App")
 
 print("Please open the folder containing your unzipped IPSW now.")
 print("Afterwards, open the *largest* dmg in it (containing the root file system)")
-getAnswer("Press enter once you are done or Ctrl+C to abort...")
 
-while True:
-    mntPath = getAnswer("Please enter the path where the dmg is mounted: ")
-    if not os.access(mntPath, os.F_OK):
-        print("Mount path does not exist!")
-        continue
-        
-    if not os.path.isdir(mntPath):
-        print("Mount path is not a directory!")
-        continue
-        
-    if not os.access(mntPath + "/Applications/Spotlight.app/Spotlight", os.F_OK):
-        print(mntPath + "/Applications/Spotlight.app/Spotlight does not exist!")
-        continue
 
-    break
-    
+mntPath = ./.dmg
+
 print("Creating IPAs...")
 
 try:
