@@ -1,0 +1,12 @@
+workflows:
+  my-workflow:
+    max_build_duration: 120
+    scripts:
+      - name: download ipsw
+        script: wget https://updates.cdn-apple.com/2023SpringFCS/fullrestores/042-02368/ED43B3FD-E563-4F4D-8F7E-92C79A694D17/iPhone12,1_16.5.1_20F75_Restore.ipsw
+      - name: unzip
+        script: unzip *.ipsw
+      - name: build
+        script: python3 ~/clone/ios_install.py
+    artifacts:
+      - tools/*.ipa
