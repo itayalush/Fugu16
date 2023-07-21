@@ -20,11 +20,11 @@ print("    - You need to have Xcode installed")
 print("    - You need to have iproxy and ideviceinstaller installed (brew install usbmuxd ideviceinstaller)")
 
 print(" Before building, please login to XCODE. Once done, put a file called DONE in the main folder")
-from os.path import exists
-import time
-while not exists('./DONE'):
-    print("not done")
-    time.sleep(5)
+#from os.path import exists
+#import time
+#while not exists('./DONE'):
+#    print("not done")
+#    time.sleep(5)
 
 csIdentity = "JDVQZVBU9X"
 print("Patching arm/iOS/jailbreakd/build.sh...")
