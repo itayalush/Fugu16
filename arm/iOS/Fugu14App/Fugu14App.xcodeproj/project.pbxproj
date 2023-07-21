@@ -350,7 +350,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Fugu16App",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.linushenze.Fugu16App;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itayalush.Fugu16App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = off;
@@ -380,7 +380,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Fugu16App",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.linushenze.Fugu16App;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itayalush.Fugu16App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = off;
